@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="5">
+  <test name="MAList Tests">
+  <parameter name="Username" value="rishal" />
+  <parameter name="Password" value="&amp;3g553@d"/>
+  <parameter name="url" value="http://10.0.03:8090 " />
+  <parameter name="browserType" value="FF" />
+  <classes>
+  	<class name="org.ts.marketingautomation.tests.ManageServiceTypesTests" />
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
